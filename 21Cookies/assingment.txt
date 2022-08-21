@@ -1,0 +1,6 @@
+1-Change Background and Text Color
+Change Background & foreground (text) color of webpage. Store their information in Cookies to retain changes.
+
+2-Make a Email Box System
+Make Email Box, user login (use cookies in login). On Welcome page, should have compose email, inbox, drafts, sent, trash. Make complete Email Box System.
+Entend Assignment, on login panel it should have a checkbox, click it to open a combobox having values. Select value(i.e. time). Set time to cookies / Set persistant cookies. User should be logged in until cookies are alive even browser is closed. But if user logged out, He/She needs to login again.

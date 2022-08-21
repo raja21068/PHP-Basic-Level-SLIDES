@@ -1,0 +1,4 @@
+1= create pdf book
+Create a book with index page. A header, footer and links of index to particular topic. Data to be fetched from database
+2=Create PDF CV
+Create a CV reporting format. Takes data from database and view in form of pdf cv.

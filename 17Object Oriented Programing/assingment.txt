@@ -1,0 +1,23 @@
+1=Create Database Class
+
+Create a database Class which will take "host", "userName" & "Password" in its constructor & will contain methods to interact with db like select, insert, update and delete.
+
+Use this class in your 'Grid View' assignment, assigned during database topic. 
+
+2.Abstract Classes & Interfaces
+Writedown sample programs of Abstract Classes & Interfaces
+
+3.Basic Banking Application
+Create a class having all basic functions of a Bank
+
+--->Add Account
+
+-->Add Balance
+
+-->Withdraw Amount
+
+-->Balance Inquiry of User
+
+-->Balance Inquiry of Bank
+
+Note: You will have to provide just method for access information, not direct access to properties 

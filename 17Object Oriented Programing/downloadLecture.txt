@@ -1,0 +1,1 @@
+Click http://www.php.net/manual/en/oop5.intro.php link to open resource.

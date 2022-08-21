@@ -1,0 +1,4 @@
+1-show online users
+Maintain user login status in database, and show online users with ajax.also make a  chat system in which two users can chat with eachother and maintain chat history in database and show chat history on page using ajax
+2-email verification using ajax
+take email from user through input field. and verify that email from database. if email exists in database a message should appear that says email already exists otherwise shows email available... use AJAX

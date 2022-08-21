@@ -1,0 +1,18 @@
+1-Count Time stayed on each page
+Make 6 pages.
+  Count total time stayed on each of page 1 to page 5.
+
+  Show result of total time stayed on each of the page (page 1 to 5) on page 6 (result page).
+
+      Note: e.g; you visit page1 and then result page(page 6), if you again visit page1, the previous interval should be added to current interval stayed.
+	  
+	  2-Publish Text with Expiry
+Make a textarea, a combobox and a submit button.
+  Enter text in textarea, select value from combobox. On submit, text should be shown upto time selected.
+
+
+  
+3-Age Calculator
+Make a textbox and submit button.
+    Enter a date of birth in the textbox and it will return the age. Use 1 page only.  
+	  
