@@ -1,0 +1,5 @@
+Data types in MYSQL.
+Rename table & column
+Create Tables and Apply Constraints
+ERD of Students, Courses and Instructors Scenario
+Job Portal System

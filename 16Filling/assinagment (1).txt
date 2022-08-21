@@ -1,0 +1,3 @@
+Make copy Function
+Make Cut_Paste Function
+Mini Project

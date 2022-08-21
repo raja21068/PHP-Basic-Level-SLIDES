@@ -1,0 +1,136 @@
+<html>
+
+	<head>
+
+		<title>FORM</title>
+	</head>
+
+	<body>
+		
+		<form id="form1" name="form1" onSubmit="return validateForm()" action="../Web Forms and HTML/form_process.php" method="post" >
+
+			Name <input type="text" name="t" id="p" value="Enter..." style="color: #FAEBD7;" onClick="myPlaceHolder( this )" 
+            onBlur="myPlaceHolderReste( this )" />
+            <span id="errormessage"></span>
+
+			<br />
+
+			Password <input type="password" name="p"  />
+			<br />
+
+			Checkbox <input type="checkbox"  name="c1" id="c1" value="chk" />
+
+			<br />
+
+			Blue <input type="radio" name="r"  value="blue" />
+			Black <input type="radio" name="r"  value="black" />
+
+			<br />
+
+			<input type="submit" name="submit" value="Register" />
+			<input type="reset" value="Clear" />
+
+			<input type="button" value="Button" onClick="customFormSubmit()" />
+
+			<br/>
+            <div id="div1">
+            	<p> this is inside div</p>
+                <input type="button" id="t2" value="test">
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+		</form>
+        <h2>Second form</h2>
+        
+        <form name="form2">
+        	username:<input type="text" name="username">
+            <br>
+            <p id="p3"> Counter: </p>
+        </form>
+
+	</body>
+    <script>
+		function test(){
+			var txtobj = document.getElementById("p");
+			txtobj.value = "From Function";
+			
+		}  
+		function myPlaceHolder( txt ){
+			
+			/*alert(id);*/
+			if(  txt.value == "Enter..." ){
+				txt.value = '';
+				txt.style.color = "black"
+			}
+			
+			console.log( txt.value )
+		}  	
+		function myPlaceHolderReste( txt_2 ){
+				
+				if( txt_2.value.length == 0 ){
+					txt_2.value = "Enter...";
+					txt_2.style.color = "#FAEBD7";	
+				}
+		}
+		
+		function chageColor(){
+			var a2 =  document.getElementsByTagName("input") ;
+			for( var  i = 0; i < a2.length ; i++ ){
+				console.log( a2[ i ].style.background = "blue" );	
+			}
+		}
+		function getVlaue(){
+			alert( document.getElementById("t2") ) ;
+			document.getElementById("t2").value  = '123456789';
+			//alert( document.getElementById("div1").innerHTML )
+			//.innerHTML = "changed from function"	
+		}
+		console.log( document.form1.t );
+		function customFormSubmit(){
+			
+			document.form1.submit();
+			  
+		}
+		function validateForm(){
+			
+			var txt_obj = document.getElementById("p");
+			if( txt_obj.value.length == 0 || txt_obj.value == "Enter..." ){
+				
+				//alert( "please enter name" );
+				document.getElementById("errormessage").innerHTML="Please Enter name";
+				document.getElementById("errormessage").style.color="red";
+				txt_obj.style.borderColor = "red";
+				
+				return false;	
+			}else{
+				return true;	
+			}
+			
+		}
+		var  a = 1;
+		var intervalID;
+		
+		function test2(){
+			
+			a++;
+			document.getElementById("p3").innerHTML = a;
+			if( a == 5 ){
+				clearInterval(intervalID);	
+			}
+			
+		}
+		intervalID = setInterval("test2()", 1000);
+		
+		
+    </script>
+
+</html>

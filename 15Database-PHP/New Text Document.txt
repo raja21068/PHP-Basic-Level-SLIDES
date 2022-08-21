@@ -1,0 +1,4 @@
+Insert and view records using html form
+Insert and view records using multiple DB Tables
+Make a CRUD/Datagrid application using mysqli
+Create Grid having insert, update, delete & pagination
