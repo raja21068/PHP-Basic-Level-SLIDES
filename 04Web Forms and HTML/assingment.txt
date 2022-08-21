@@ -1,0 +1,14 @@
+Create Webpage
+Internal Links
+Links
+Image Mapping
+Practice Lists
+Table based webpage layout
+Make Table Structure
+Generate Dynamic Table using Forms
+Generate Text Fields using Forms
+Policies using Checkbox
+Convert Marksheet Assigment
+Create Calculator using Form
+Generate Form Controls Dynamically
+Extended Generate Form Controls Dynamically

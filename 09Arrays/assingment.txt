@@ -1,0 +1,6 @@
+Store 10 random non repeated values in array.
+Make a linear Search using array.
+Take an unsorted array and sort it.
+Intersect two given arrays.
+Make custom explode function
+addition of two matrices

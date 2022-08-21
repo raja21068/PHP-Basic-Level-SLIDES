@@ -1,0 +1,11 @@
+Vertical Text
+Count "A" & "a" Alphabets
+Escape "A" and "a" from text
+Find and replace an alphabet
+Count Alphabets, words and spaces
+Uppercase to lowercase and lowercase to Uppercase.
+Change case of all characters of given text
+Generate Random Password
+Capitalize first letter of each sentence
+Count the Vowels and Consonants and also find the positions of each vowel
+Encrypt and Decrypt Data
